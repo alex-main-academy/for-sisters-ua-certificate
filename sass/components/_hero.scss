@@ -1,6 +1,7 @@
 .hero {
     position: relative;
     height: 100vh;
+    background: url(../img/hero-bg.png) no-repeat top right / cover;
 }
 
 .hero .container {
@@ -66,4 +67,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    img {
+        animation-name: arrow;
+        animation-duration: 1500ms;
+        animation-iteration-count: infinite;
+    }
+}
+
+@keyframes arrow {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(.4rem);
+    }
 }

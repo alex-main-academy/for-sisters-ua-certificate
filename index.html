@@ -9,6 +9,8 @@
     <meta name="description" content="Цей подарунок для тебе, тому що ти особлива... тебе люблять і цінують!">
     <link rel="shortcut icon" type="image/x-icon" href="">
     <link rel="icon" sizes="any" type="image/svg+xml" href="">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
@@ -23,37 +25,40 @@
                 <div class="info__right">
                     <section class="hero">
                         <div class="container">
-                            <h1 class="hero__title">
+                            <h1 class="hero__title" data-aos="fade-in" data-aos-delay="2000" data-aos-duration="700">
                                 СЕРТИФІКАТ
                                 <span>подарунковий</span>
                             </h1>
                             <p class="hero__subtitle">
-                                <span>Merry Christmas</span>
-                                <span>and</span>
-                                <span>Happy New Year</span>
+                                <span data-aos="fade-in" data-aos-delay="2200" data-aos-duration="700">Merry
+                                    Christmas</span>
+                                <span data-aos="fade-in" data-aos-delay="2400" data-aos-duration="700">and</span>
+                                <span data-aos="fade-in" data-aos-delay="2600" data-aos-duration="700">Happy New
+                                    Year</span>
                             </p>
-                            <p class="hero__price">
+                            <p class="hero__price" data-aos="fade-in" data-aos-delay="3000" data-aos-duration="700">
                                 1000<span>грн</span>
                             </p>
-                            <a href="#" class="hero__link">
+                            <a class="hero__link">
                                 <img src="img/arrow-bottom.svg" alt="arrow" width="17">
                             </a>
                         </div>
                     </section>
 
-                    <section class="info">
+                    <section class="info" id="info">
                         <div class="container">
-                            <p class="info__desc">
+                            <p class="info__desc" data-aos="fade-up" data-aos-duration="700">
                                 Цей подарунок для тебе, тому що ти особлива... тебе люблять і цінують
                             </p>
-                            <p class="info__desc">
+                            <p class="info__desc" data-aos="fade-up" data-aos-duration="700">
                                 Обрати подарунок можна тут
                             </p>
-                            <a href="#" class="info__link">
+                            <a href="https://www.instagram.com/for_sisters_ua/" class="info__link" data-aos="fade-up"
+                                data-aos-duration="700">
                                 <span>@for_sisters_ua</span>
                             </a>
-                            <p class="info__warning">
-                                Термін дії сертифікату 28.02.2025
+                            <p class="info__warning" data-aos="fade-in" data-aos-duration="700">
+                                Термін дії сертифікату до 28.02.2025
                             </p>
                         </div>
                     </section>
@@ -62,16 +67,19 @@
 
             <section class="contacts">
                 <div class="container">
-                    <h2 class="contacts__title">
+                    <h2 class="contacts__title" data-aos="fade-up" data-aos-duration="700">
                         АКТИВАЦІЯ
                     </h2>
                     <form class="contacts__order">
                         <input type="number" name="code" class="contacts__field" maxlength="8" placeholder="промокод"
-                            required>
-                        <input type="text" name="instagran" class="contacts__field" placeholder="instagram" required>
-                        <button class="contacts__submit" type="submit">Активувати</button>
+                            required data-aos="fade-right" data-aos-duration="700">
+                        <input type="text" name="instagran" class="contacts__field" placeholder="instagram" required
+                            data-aos="fade-left" data-aos-duration="700">
+                        <button class="contacts__submit" type="submit" data-aos="fade-up"
+                            data-aos-duration="700">Активувати</button>
                     </form>
-                    <img src="img/logo-s.svg" alt="for-sisters-ua" width="349" class="contacts__logo">
+                    <img src="img/logo-s.svg" alt="for-sisters-ua" width="349" class="contacts__logo" data-aos="fade-in"
+                        data-aos-duration="700">
                 </div>
             </section>
         </main>

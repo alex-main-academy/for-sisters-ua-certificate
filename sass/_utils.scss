@@ -8,6 +8,14 @@ body {
     color: $color-primary;
     line-height: 1.2;
     overflow-x: hidden;
+
+    &.is-loader {
+        overflow: hidden;
+    }
+}
+
+body.animation-ready .wrapper {
+    visibility: visible;
 }
 
 .wrapper {
@@ -15,6 +23,7 @@ body {
     max-width: 48rem;
     margin: 0 auto;
     background-color: $color-bg-primary;
+    visibility: hidden;
 
     &::before,
     &::after {

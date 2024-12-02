@@ -333,7 +333,8 @@ body.animation-ready .wrapper {
 .info__warning {
   text-align: center;
   color: #FBD97B;
-  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 

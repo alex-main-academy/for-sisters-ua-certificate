@@ -1,8 +1,16 @@
 {
     "rewrites": [
         {
-            "source": "/page1",
-            "destination": "/page1/index.html"
+            "source": "/thanks",
+            "destination": "/thanks/index.html"
+        },
+        {
+            "source": "/gift-500",
+            "destination": "/gift-500/index.html"
+        },
+        {
+            "source": "/gift-1000",
+            "destination": "/gift-1000/index.html"
         }
     ]
 }
